@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Watcharr</Name>
+  <Repository>ghcr.io/sbondco/watcharr:latest</Repository>
+  <Registry>https://github.com/sbondCo/Watcharr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/sbondCo/Watcharr/issues/new/choose</Support>
+  <Project>https://github.com/sbondCo/Watcharr</Project>
+  <Overview>Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup.</Overview>
+  <Category>MediaApp:Video</Category>
+  <WebUI>http://[IP]:[PORT:3080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/sbondCo/Watcharr/dev/static/logo-sqre.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1710398391</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="watcharr" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/watcharr</Config>
+  <Config Name="WebUI" Target="3080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3080</Config>
+</Container>
