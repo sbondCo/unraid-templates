@@ -1,2 +1,2 @@
-# watcharr-unraid
-Watcharr Unraid XML Template
+# unraid templates
+Currently just houses Watcharrs template.
